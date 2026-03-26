@@ -1,0 +1,31 @@
+INICIO
+	definir acumulador = 0
+	definir opción = 0
+	si opción != 2:
+		imprimir "Menu de inicio POKER APAS"
+		imprimir "1. Iniciar Sesion"
+		imprimir "2. Salir"
+		imprimir "Seleccione una opción: "
+		leer opción
+		si opción == 1:
+			mientras acumulador <= 3:
+				si acumulador == 3:
+					imprimir "USUARIO BLOQUEADO"
+					Romper mientras
+				imprimir "ingrese su nombre de usuario: "
+				leer usuario
+				imprimir "ingrese su contraseña: "
+				leer contraseña
+				fin si
+				si usuario == "esteban" y contraseña == "1234"
+					imprimir ("Bienvenido, ", usuario)
+					Romper mientras
+				si no
+					imprimir "usuario o contraseña incorrecto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ,s"
+					acumulador += 1
+		elif opción == 2:
+			imprimir "Hasta luego..."
+		si no
+		imprimir "Opción invalida "
+				
+FIN
