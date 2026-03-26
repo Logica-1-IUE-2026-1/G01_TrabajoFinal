@@ -1,0 +1,37 @@
+INICIO
+	imprimir "Menu de interaccion de POKER APAS "
+	imprimir "1. Menu general \n 2. Menu jugadores \n 3. Menu administrador \n"
+	leer opción
+	si opción == 1
+		imprimir "Menu general de POKER APAS"
+		imprimir "1. Ver resultados \n 2. salir \n"
+		leer opcion2
+		si opcion2 == 1:
+			imprimir "resultados: \n ganaste una partida el 12/03/2026 a las 3:00pm \n Perdiste una partida el 12/03/2026 a las 3:00pm"
+		si no
+			imprimir "Hasta pronto..."
+	elif opción == 2:
+		imprimir "Menu de juego POKER APAS"
+		imprimir "1. nueva partida \n 2. salir \n"
+		leer opcion2
+		si opcion2 == 1:
+			imprimir "jugando... partida en curso"
+		si no
+			imprimir "hasta luego"
+	elif opción == 3
+		imprimir "Menu de administrador POKER APAS"
+		imprimir "1. consultar resultados \n 2. bloquear \n 3. Desbloquear usuario \n 4. salir \n"
+		leer opcion2
+		si opcion2 == 1:
+			imprimir "Resultados: \n Jair gano una partida el 12/03/2026 a las 3:00pm \n Jonatan perdió una partida el 12/03/2026 a las 3:00pm \n"
+		elif opcion2 == 2:
+			imprimir "Que usuario desea bloquear: \n"
+			leer usubloq
+			imprimir "usuario {usubloq} desbloqueado con exito"
+		elif opción == 3:
+			imprimir "que usuario desea desbloquear: \n"
+			leer usubloq
+			imprimir "usuario {usubloq} desbloqueado con exito"
+		si no
+			imprimir "Hasta luego..."
+FIN
